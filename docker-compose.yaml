@@ -1,0 +1,11 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - .:/app
+    environment:
+      - VITE_BASE_URL=http://test-backend.itdelta.agency/api/

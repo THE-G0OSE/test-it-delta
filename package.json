@@ -7,11 +7,20 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.17",
+    "@tanstack/react-query": "^5.90.10",
+    "axios": "^1.13.2",
+    "motion": "^12.23.24",
+    "path": "^0.12.7",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "tailwind-merge": "^3.4.0",
+    "tailwind-variants": "^3.2.2",
+    "tailwindcss": "^4.1.17"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
